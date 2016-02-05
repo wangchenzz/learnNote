@@ -18,9 +18,11 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 
 @property (nonatomic,retain) NSMutableArray *dataArray;
+
 @property (nonatomic,retain) NSMutableArray *ary;
 
 @property (nonatomic,retain)  clickView *vie;
+
 @end
 
 @implementation ViewController
