@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0450663F1C62F41C00809D9C /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450663E1C62F41C00809D9C /* model.m */; settings = {ASSET_TAGS = (); }; };
-		047EA5911C635A3D00B44AF7 /* clickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EA5901C635A3D00B44AF7 /* clickView.m */; settings = {ASSET_TAGS = (); }; };
+		0450663F1C62F41C00809D9C /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450663E1C62F41C00809D9C /* model.m */; };
+		045DA1811C8E9C5A0047568A /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 045DA1801C8E9C5A0047568A /* Podfile.lock */; };
+		047EA5911C635A3D00B44AF7 /* clickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047EA5901C635A3D00B44AF7 /* clickView.m */; };
 		0487D2851C61C1CD002BD531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2841C61C1CD002BD531 /* main.m */; };
 		0487D2881C61C1CD002BD531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2871C61C1CD002BD531 /* AppDelegate.m */; };
 		0487D28B1C61C1CD002BD531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D28A1C61C1CD002BD531 /* ViewController.m */; };
@@ -17,8 +18,8 @@
 		0487D2931C61C1CD002BD531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487D2911C61C1CD002BD531 /* LaunchScreen.storyboard */; };
 		0487D29E1C61C1CE002BD531 /* testTableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D29D1C61C1CE002BD531 /* testTableviewTests.m */; };
 		0487D2A91C61C1CE002BD531 /* testTableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2A81C61C1CE002BD531 /* testTableviewUITests.m */; };
-		0487D2B81C61C286002BD531 /* mycell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2B71C61C286002BD531 /* mycell.m */; settings = {ASSET_TAGS = (); }; };
-		0487D2BB1C61C7BB002BD531 /* EveryDayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2BA1C61C7BB002BD531 /* EveryDayTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		0487D2B81C61C286002BD531 /* mycell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2B71C61C286002BD531 /* mycell.m */; };
+		0487D2BB1C61C7BB002BD531 /* EveryDayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487D2BA1C61C7BB002BD531 /* EveryDayTableViewCell.m */; };
 		E07509BC004626926D6A7F72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD6FFEEAC490EB8E37DEDD6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0450663D1C62F41C00809D9C /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 		0450663E1C62F41C00809D9C /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		045DA1801C8E9C5A0047568A /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		047EA58F1C635A3D00B44AF7 /* clickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clickView.h; sourceTree = "<group>"; };
 		047EA5901C635A3D00B44AF7 /* clickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clickView.m; sourceTree = "<group>"; };
 		0487D2801C61C1CD002BD531 /* testTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 				0487D2B61C61C286002BD531 /* mycell.h */,
 				0487D2B71C61C286002BD531 /* mycell.m */,
 				0487D28C1C61C1CD002BD531 /* Main.storyboard */,
+				045DA1801C8E9C5A0047568A /* Podfile.lock */,
 				0487D28F1C61C1CD002BD531 /* Assets.xcassets */,
 				0487D2911C61C1CD002BD531 /* LaunchScreen.storyboard */,
 				0487D2941C61C1CD002BD531 /* Info.plist */,
@@ -292,6 +295,7 @@
 			files = (
 				0487D2931C61C1CD002BD531 /* LaunchScreen.storyboard in Resources */,
 				0487D2901C61C1CD002BD531 /* Assets.xcassets in Resources */,
+				045DA1811C8E9C5A0047568A /* Podfile.lock in Resources */,
 				0487D28E1C61C1CD002BD531 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
