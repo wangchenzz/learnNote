@@ -45,7 +45,7 @@
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
     
             NSArray *ary = dic[@"newslist"];
-            
+//            NSArray
             for (NSDictionary *dic in ary) {
                 
                 model *mode = [[model alloc]init];
